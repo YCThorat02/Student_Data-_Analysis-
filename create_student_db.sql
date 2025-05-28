@@ -89,10 +89,6 @@ select  first_name from student_edge where first_name like 'S%';
 select first_name,sub_name from student_edge where class ="2" and sub_name = "java";
 
 
-
-
- 
- 
 -- Q11. Find the number of students in each division.
 
 select divsion, count(first_name)  as count_name from student_edge group by divsion  ;
